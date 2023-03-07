@@ -3,7 +3,7 @@
 The Fanbian Store Sales Report was analyzed using Microsoft Power BI, Excel and Powerpoint. 
 
 ## Dataset
-The dataset is a sales report of 49 states across the United States of America. You can view the raw data here: https://docs.google.com/spreadsheets/d/1OLduMc5snHPYcUR1jg4kiyG3vkknmTdx/edit?usp=share_link&ouid=113116979457947439520&rtpof=true&sd=true. 
+The dataset is a sales report of 49 states across the United States of America gotten from Microsoft's website. You can download the raw data here: https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download 
 
 The data has 22 columns and over 5000 rows. The columns include Row ID, Order ID, Order Date, Ship Date, Ship Mode, Customer ID, Customer Name, Segment, Country, City, State, Postal Code, Region, Product ID, Category, Sub-Category, Product Name, Sales, Quantity, Discount, Profit, and Profit Margin. 
 
@@ -20,18 +20,7 @@ The data has 22 columns and over 5000 rows. The columns include Row ID, Order ID
 8. Fact table included all numerical columns. 
 NB: The primary keys are the smallest indivisible values in the dimension table; they connect with the fact table to build a model.  
 
-![consumer](https://user-images.githubusercontent.com/123817356/221174196-a3855544-0692-4bfa-a03b-2de94f2bba2d.jpg)
-
-![location](https://user-images.githubusercontent.com/123817356/221174217-eb9edfd7-bb28-4679-a3ca-d542baa39bdc.jpg)
-
-![order](https://user-images.githubusercontent.com/123817356/221174229-ab2d1be5-dc77-4941-8cd2-fe37cd2e0bd5.jpg)
-
-![products](https://user-images.githubusercontent.com/123817356/221174239-379e4a51-d201-4d72-98ae-9ff70cc22e5a.jpg)
-
-![fact table](https://user-images.githubusercontent.com/123817356/221177930-c58c30c3-f892-495e-b3b3-8aa6b788bfdb.jpg)
-
-![model](https://user-images.githubusercontent.com/123817356/221174289-93ede22c-594f-44e3-bc30-14c425f19665.jpg)
-
+![image](https://user-images.githubusercontent.com/123817356/223383131-3e20320c-e7e3-4c80-98c2-c660ae352944.png)
 
 ## Data Analysis 
 To analyze the Fanbian sales Report, I answered the following questions:
@@ -47,8 +36,6 @@ We created a four-page dashboard showing the homepage, overview, sales, and prof
 
 ![sales](https://user-images.githubusercontent.com/123817356/221175584-1b786e3c-9bb4-42f4-bff3-c4ccb6a0b2fa.jpg)
 
-![profit](https://user-images.githubusercontent.com/123817356/221175649-f4928f55-b35e-4921-87aa-d940b56e8468.jpg)
-
 ### Interpretation
 
 **The sum of Sales per category**
@@ -58,6 +45,11 @@ It was represented on the dashboard as the Sum of Sales by Category. The doughnu
 **The states with the highest sales**
 
 It was represented as Top 10 Sales by State on the dashboard. It can be seen that North Carolina, followed by New York and California, has the highest sales. 
+
+
+![profit](https://user-images.githubusercontent.com/123817356/221175649-f4928f55-b35e-4921-87aa-d940b56e8468.jpg)
+
+### Interpretation
 
 **The amount of profit per category**
 
